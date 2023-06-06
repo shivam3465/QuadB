@@ -33,8 +33,7 @@ export default function Show() {
     const fetcher = async () => {
       setLoading(true);
       const { data } = await axios.get(`https://api.tvmaze.com/shows/${id}`);
-      setShow(() => data);
-      console.log(data);
+      setShow(() => data);      
       setLoading(() => false);
     };
     fetcher();
