@@ -44,7 +44,7 @@ export default function Show() {
       {loading ? (
         <Loader/>
       ) : (
-        <>
+        <>  
           <div id="left">
             <img src={show.image.original} alt="" />
           </div>
