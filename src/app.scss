@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 928px)  and (min-width: 768px) {
+    html{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 768px)  and (min-width: 512px) {
+    html{
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 512px) {
+    html{
+        font-size: 65%;
+    }
+}
